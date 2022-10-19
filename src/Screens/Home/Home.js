@@ -1,6 +1,6 @@
 //import liraries
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, Button, TouchableOpacity, SafeAreaView ,Image} from 'react-native';
+import { View, Text, StyleSheet, Button, TouchableOpacity, SafeAreaView, Image } from 'react-native';
 import ButtonComp from '../../Components/ButtonComp';
 import HeaderComp from '../../Components/HeaderComp';
 import ImagePath from '../../constants/ImagePath';
@@ -19,7 +19,8 @@ const Home = ({ navigation, routes }) => {
                 <ButtonComp
                     onPress={onClick}
                     btnText='Add Task'
-                    btnImage={ImagePath.icAdd}></ButtonComp>
+                    btnImage={ImagePath.icAdd} />
+
             </View>
         </>
     );
