@@ -6,7 +6,8 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         marginHorizontal:16,
-        marginVertical:24
+        marginVertical:24,
+        backgroundColor:'white'
     },
 });
 export default styles
